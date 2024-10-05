@@ -22,7 +22,7 @@ npm run lint
 
 ### install 
 - setting > workspace > json파일에 다음을 입력
-  ₩₩₩
+  ```
   {
 	// 빨간줄로 이제 에러를 빨간줄로 보여줌.
 	"eslint.enable": true,
@@ -34,8 +34,8 @@ npm run lint
 	},
 	// 파일을 저장할 때마다 포맷팅 실행
 	"editor.formatOnSave": true
-}
-₩₩₩
+  }
+	```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
